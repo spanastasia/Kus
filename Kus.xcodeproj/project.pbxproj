@@ -14,6 +14,24 @@
 		649B573B297169900094D49C /* KusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B573A297169900094D49C /* KusTests.swift */; };
 		649B5745297169900094D49C /* KusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B5744297169900094D49C /* KusUITests.swift */; };
 		649B5747297169900094D49C /* KusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B5746297169900094D49C /* KusUITestsLaunchTests.swift */; };
+		649B575429716F690094D49C /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B575329716F690094D49C /* AuthorizationView.swift */; };
+		649B578E297178700094D49C /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B578D297178700094D49C /* RoundedTextField.swift */; };
+		649B5790297187050094D49C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B578F297187050094D49C /* PrimaryButton.swift */; };
+		649B579229718A820094D49C /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B579129718A820094D49C /* LogoView.swift */; };
+		649B579729754DD00094D49C /* WebSocketManager in Frameworks */ = {isa = PBXBuildFile; productRef = 649B579629754DD00094D49C /* WebSocketManager */; };
+		649B579B29755E650094D49C /* SpinningImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B579A29755E650094D49C /* SpinningImageView.swift */; };
+		649B579D297844F00094D49C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B579C297844F00094D49C /* MenuView.swift */; };
+		649B57A029793AD00094D49C /* BurgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B579F29793AD00094D49C /* BurgerButton.swift */; };
+		649B57A32979651E0094D49C /* ChexBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57A22979651E0094D49C /* ChexBoxView.swift */; };
+		649B57A529797A5B0094D49C /* GameRoolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57A429797A5B0094D49C /* GameRoolsView.swift */; };
+		649B57A729797A770094D49C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57A629797A770094D49C /* BackgroundView.swift */; };
+		649B57BD29798E000094D49C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57B229798E000094D49C /* MapView.swift */; };
+		649B57C029798E000094D49C /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57B629798E000094D49C /* FoodView.swift */; };
+		649B57C329798FF60094D49C /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57C229798FF60094D49C /* FoodViewModel.swift */; };
+		649B57C72979908E0094D49C /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57C52979908E0094D49C /* CellView.swift */; };
+		649B57C82979908E0094D49C /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57C62979908E0094D49C /* CellViewModel.swift */; };
+		649B57CA297AAD430094D49C /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57C9297AAD430094D49C /* GameManager.swift */; };
+		649B57CC297AAD520094D49C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57CB297AAD520094D49C /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +62,24 @@
 		649B5740297169900094D49C /* KusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649B5744297169900094D49C /* KusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KusUITests.swift; sourceTree = "<group>"; };
 		649B5746297169900094D49C /* KusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		649B575329716F690094D49C /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		649B578D297178700094D49C /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		649B578F297187050094D49C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		649B579129718A820094D49C /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		649B579929754DEB0094D49C /* WebSocketManager */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WebSocketManager; path = ../WebSocketManager; sourceTree = "<group>"; };
+		649B579A29755E650094D49C /* SpinningImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningImageView.swift; sourceTree = "<group>"; };
+		649B579C297844F00094D49C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		649B579F29793AD00094D49C /* BurgerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerButton.swift; sourceTree = "<group>"; };
+		649B57A22979651E0094D49C /* ChexBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChexBoxView.swift; sourceTree = "<group>"; };
+		649B57A429797A5B0094D49C /* GameRoolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRoolsView.swift; sourceTree = "<group>"; };
+		649B57A629797A770094D49C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		649B57B229798E000094D49C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		649B57B629798E000094D49C /* FoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		649B57C229798FF60094D49C /* FoodViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
+		649B57C52979908E0094D49C /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		649B57C62979908E0094D49C /* CellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		649B57C9297AAD430094D49C /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		649B57CB297AAD520094D49C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649B579729754DD00094D49C /* WebSocketManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +111,9 @@
 		649B571D2971698E0094D49C = {
 			isa = PBXGroup;
 			children = (
+				649B579829754DEB0094D49C /* Packages */,
 				649B57282971698E0094D49C /* Kus */,
+				649B572D297169900094D49C /* Assets.xcassets */,
 				649B5739297169900094D49C /* KusTests */,
 				649B5743297169900094D49C /* KusUITests */,
 				649B57272971698E0094D49C /* Products */,
@@ -96,7 +135,9 @@
 			children = (
 				649B57292971698E0094D49C /* KusApp.swift */,
 				649B572B2971698E0094D49C /* ContentView.swift */,
-				649B572D297169900094D49C /* Assets.xcassets */,
+				649B57C9297AAD430094D49C /* GameManager.swift */,
+				649B579E297844FC0094D49C /* Views */,
+				649B578B297173A20094D49C /* SharedViews */,
 				649B572F297169900094D49C /* Preview Content */,
 			);
 			path = Kus;
@@ -127,6 +168,68 @@
 			path = KusUITests;
 			sourceTree = "<group>";
 		};
+		649B578B297173A20094D49C /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				649B578D297178700094D49C /* RoundedTextField.swift */,
+				649B578F297187050094D49C /* PrimaryButton.swift */,
+				649B579129718A820094D49C /* LogoView.swift */,
+				649B579A29755E650094D49C /* SpinningImageView.swift */,
+				649B579F29793AD00094D49C /* BurgerButton.swift */,
+				649B57A22979651E0094D49C /* ChexBoxView.swift */,
+				649B57A629797A770094D49C /* BackgroundView.swift */,
+			);
+			path = SharedViews;
+			sourceTree = "<group>";
+		};
+		649B579829754DEB0094D49C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				649B579929754DEB0094D49C /* WebSocketManager */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		649B579E297844FC0094D49C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				649B579C297844F00094D49C /* MenuView.swift */,
+				649B57A429797A5B0094D49C /* GameRoolsView.swift */,
+				649B575329716F690094D49C /* AuthorizationView.swift */,
+				649B57CB297AAD520094D49C /* GameView.swift */,
+				649B57B129798E000094D49C /* Map */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		649B57B129798E000094D49C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				649B57B229798E000094D49C /* MapView.swift */,
+				649B57B429798E000094D49C /* Food */,
+				649B57C4297990740094D49C /* Cell */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		649B57B429798E000094D49C /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				649B57B629798E000094D49C /* FoodView.swift */,
+				649B57C229798FF60094D49C /* FoodViewModel.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		649B57C4297990740094D49C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				649B57C52979908E0094D49C /* CellView.swift */,
+				649B57C62979908E0094D49C /* CellViewModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +246,9 @@
 			dependencies = (
 			);
 			name = Kus;
+			packageProductDependencies = (
+				649B579629754DD00094D49C /* WebSocketManager */,
+			);
 			productName = Kus;
 			productReference = 649B57262971698E0094D49C /* Kus.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +321,9 @@
 				Base,
 			);
 			mainGroup = 649B571D2971698E0094D49C;
+			packageReferences = (
+				649B579529754DD00094D49C /* XCRemoteSwiftPackageReference "WebSocketManager" */,
+			);
 			productRefGroup = 649B57272971698E0094D49C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +366,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649B5790297187050094D49C /* PrimaryButton.swift in Sources */,
+				649B579229718A820094D49C /* LogoView.swift in Sources */,
+				649B57A729797A770094D49C /* BackgroundView.swift in Sources */,
+				649B57A32979651E0094D49C /* ChexBoxView.swift in Sources */,
 				649B572C2971698E0094D49C /* ContentView.swift in Sources */,
 				649B572A2971698E0094D49C /* KusApp.swift in Sources */,
+				649B57A029793AD00094D49C /* BurgerButton.swift in Sources */,
+				649B579D297844F00094D49C /* MenuView.swift in Sources */,
+				649B57CA297AAD430094D49C /* GameManager.swift in Sources */,
+				649B57C72979908E0094D49C /* CellView.swift in Sources */,
+				649B57BD29798E000094D49C /* MapView.swift in Sources */,
+				649B57A529797A5B0094D49C /* GameRoolsView.swift in Sources */,
+				649B57CC297AAD520094D49C /* GameView.swift in Sources */,
+				649B57C82979908E0094D49C /* CellViewModel.swift in Sources */,
+				649B575429716F690094D49C /* AuthorizationView.swift in Sources */,
+				649B57C029798E000094D49C /* FoodView.swift in Sources */,
+				649B579B29755E650094D49C /* SpinningImageView.swift in Sources */,
+				649B578E297178700094D49C /* RoundedTextField.swift in Sources */,
+				649B57C329798FF60094D49C /* FoodViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +703,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		649B579529754DD00094D49C /* XCRemoteSwiftPackageReference "WebSocketManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:MaksymMelnyk3/WebSocketManager.git";
+			requirement = {
+				branch = refactoring;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		649B579629754DD00094D49C /* WebSocketManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649B579529754DD00094D49C /* XCRemoteSwiftPackageReference "WebSocketManager" */;
+			productName = WebSocketManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 649B571E2971698E0094D49C /* Project object */;
 }

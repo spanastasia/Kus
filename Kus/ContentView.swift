@@ -6,21 +6,27 @@
 //
 
 import SwiftUI
+import WebSocketManager
 
 struct ContentView: View {
+    @StateObject var gameManager: GameManager
+    let webSocketManager = WebSocketManager(cellLogic: FatJohny())
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            AuthorizationView()
+                .navigationDestination(isPresented: $gameManager.showGame) {
+                    GameView()
+                        .navigationBarBackButtonHidden()
+                }
         }
-        .padding()
+        .environmentObject(gameManager)
+            
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(gameManager: .init(webSocketManager: .init(cellLogic: FatJohny())))
     }
 }

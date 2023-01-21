@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import WebSocketManager
 
 @main
 struct KusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(gameManager: .init(webSocketManager: .init(cellLogic: cellLogic)))
         }
+    }
+    
+    var cellLogic: CellLogic {
+        FatJohny()
     }
 }
