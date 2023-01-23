@@ -22,10 +22,13 @@ struct GameView: View {
                 )
             }
             if showMenu {
-                MenuView()
+                MenuView(showRules: $showRules)
             }
             BurgerButton(menuOpened: $showMenu)
                 .padding(20)
+            if showRules {
+                GameRulesView(isShown: $showRules, rules: "Game rules are coming soon...")
+            }
         }
     }
 }

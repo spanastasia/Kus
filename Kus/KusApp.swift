@@ -17,6 +17,6 @@ struct KusApp: App {
     }
     
     var cellLogic: CellLogic {
-        FatJohny()
+        SmartSammy()
     }
 }

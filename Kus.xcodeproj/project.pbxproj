@@ -23,7 +23,7 @@
 		649B579D297844F00094D49C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B579C297844F00094D49C /* MenuView.swift */; };
 		649B57A029793AD00094D49C /* BurgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B579F29793AD00094D49C /* BurgerButton.swift */; };
 		649B57A32979651E0094D49C /* ChexBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57A22979651E0094D49C /* ChexBoxView.swift */; };
-		649B57A529797A5B0094D49C /* GameRoolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57A429797A5B0094D49C /* GameRoolsView.swift */; };
+		649B57A529797A5B0094D49C /* GameRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57A429797A5B0094D49C /* GameRulesView.swift */; };
 		649B57A729797A770094D49C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57A629797A770094D49C /* BackgroundView.swift */; };
 		649B57BD29798E000094D49C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57B229798E000094D49C /* MapView.swift */; };
 		649B57C029798E000094D49C /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57B629798E000094D49C /* FoodView.swift */; };
@@ -32,6 +32,7 @@
 		649B57C82979908E0094D49C /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57C62979908E0094D49C /* CellViewModel.swift */; };
 		649B57CA297AAD430094D49C /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57C9297AAD430094D49C /* GameManager.swift */; };
 		649B57CC297AAD520094D49C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57CB297AAD520094D49C /* GameView.swift */; };
+		649B57CE297E7A960094D49C /* SmartSammy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B57CD297E7A960094D49C /* SmartSammy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +72,7 @@
 		649B579C297844F00094D49C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		649B579F29793AD00094D49C /* BurgerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerButton.swift; sourceTree = "<group>"; };
 		649B57A22979651E0094D49C /* ChexBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChexBoxView.swift; sourceTree = "<group>"; };
-		649B57A429797A5B0094D49C /* GameRoolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRoolsView.swift; sourceTree = "<group>"; };
+		649B57A429797A5B0094D49C /* GameRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRulesView.swift; sourceTree = "<group>"; };
 		649B57A629797A770094D49C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		649B57B229798E000094D49C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		649B57B629798E000094D49C /* FoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		649B57C62979908E0094D49C /* CellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
 		649B57C9297AAD430094D49C /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		649B57CB297AAD520094D49C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		649B57CD297E7A960094D49C /* SmartSammy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSammy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				649B57292971698E0094D49C /* KusApp.swift */,
+				649B57CD297E7A960094D49C /* SmartSammy.swift */,
 				649B572B2971698E0094D49C /* ContentView.swift */,
 				649B57C9297AAD430094D49C /* GameManager.swift */,
 				649B579E297844FC0094D49C /* Views */,
@@ -194,7 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				649B579C297844F00094D49C /* MenuView.swift */,
-				649B57A429797A5B0094D49C /* GameRoolsView.swift */,
+				649B57A429797A5B0094D49C /* GameRulesView.swift */,
 				649B575329716F690094D49C /* AuthorizationView.swift */,
 				649B57CB297AAD520094D49C /* GameView.swift */,
 				649B57B129798E000094D49C /* Map */,
@@ -377,12 +380,13 @@
 				649B57CA297AAD430094D49C /* GameManager.swift in Sources */,
 				649B57C72979908E0094D49C /* CellView.swift in Sources */,
 				649B57BD29798E000094D49C /* MapView.swift in Sources */,
-				649B57A529797A5B0094D49C /* GameRoolsView.swift in Sources */,
+				649B57A529797A5B0094D49C /* GameRulesView.swift in Sources */,
 				649B57CC297AAD520094D49C /* GameView.swift in Sources */,
 				649B57C82979908E0094D49C /* CellViewModel.swift in Sources */,
 				649B575429716F690094D49C /* AuthorizationView.swift in Sources */,
 				649B57C029798E000094D49C /* FoodView.swift in Sources */,
 				649B579B29755E650094D49C /* SpinningImageView.swift in Sources */,
+				649B57CE297E7A960094D49C /* SmartSammy.swift in Sources */,
 				649B578E297178700094D49C /* RoundedTextField.swift in Sources */,
 				649B57C329798FF60094D49C /* FoodViewModel.swift in Sources */,
 			);

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MenuView: View {
+    @Binding var showRules: Bool
     @State var testRoomSelected = false
     @EnvironmentObject var gameManager: GameManager
     var body: some View {
@@ -21,7 +22,7 @@ struct MenuView: View {
                 ChexBoxView(labelText: "Test room", isSelected: $testRoomSelected)
                 .padding(.init(top: 4, leading: 0, bottom: 0, trailing: 0))
                 PrimaryButton(buttonText: "START", action: gameManager.connectToRoom)
-                Button(action: {}) {
+                Button(action: { showRules.toggle() }) {
                     Text("game rules")
                         .kerning(0.6)
                         .font(.system(size: 18))
