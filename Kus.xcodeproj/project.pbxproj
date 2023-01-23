@@ -713,7 +713,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:MaksymMelnyk3/WebSocketManager.git";
 			requirement = {
-				branch = refactoring;
+				branch = map;
 				kind = branch;
 			};
 		};
