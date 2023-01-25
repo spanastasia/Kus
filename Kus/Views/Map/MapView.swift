@@ -16,9 +16,9 @@ struct MapView: View {
         ZStack(alignment: .topLeading) {
             ForEach(food, id: \.id) { foodViewModel in
                 FoodView(viewModel: foodViewModel)
-                ForEach(cells, id: \.id) { cellViewModel in
+            }
+            ForEach(cells, id: \.id) { cellViewModel in
                     CellView(viewModel: cellViewModel)
-                }
             }
         }
         .frame(width: mapSize.width, height: mapSize.height, alignment: .topLeading)
